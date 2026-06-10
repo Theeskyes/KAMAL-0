@@ -9,7 +9,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 const INFO = [
   { label: 'Nama',       value: 'Muhammad kamaluddin Pulungan ', icon: '✨' },
-  { label: 'Umur',       value: '15 Tahun',    icon: '🎂' },
+  { label: 'Umur',       value: '16 Tahun',    icon: '🎂' },
   { label: 'Gender',     value: 'Male',        icon: '👤' },
   { label: 'Pendidikan', value: 'Pelajar',     icon: '🎓' },
   { label: 'Status',     value: 'Pelajar',     icon: '📚' },
