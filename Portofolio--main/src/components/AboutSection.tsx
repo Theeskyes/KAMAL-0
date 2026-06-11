@@ -154,7 +154,7 @@ export default function AboutSection() {
                 </GradientText>
                 , seorang pelajar berusia 17 tahun yang passionate di dunia web development dan teknologi.
               </p>
-              <p className="text-base leading-relaxed" style={{ color: '#555' }}>
+              <p className="text-base leading-relaxed" style={{ color: '#999' }}>
                 saya terus belajar dan mengembangkan skill di bidang JavaScript, TypeScript,
                 React, dan Python. Saya percaya tidak ada kata terlalu dini untuk mulai berkarya di dunia digital.
                 Setiap hari adalah kesempatan belajar hal baru!
@@ -182,8 +182,8 @@ export default function AboutSection() {
               className="p-5 rounded-2xl"
               style={{ background: 'rgba(177,158,239,0.03)', border: '1px solid rgba(177,158,239,0.09)' }}
             >
-              <p className="text-sm leading-relaxed italic" style={{ color: '#555' }}>
-                "Muda bukan halangan. Setiap baris kode yang saya tulis adalah langkah menuju masa depan yang saya impikan."
+              <p className="text-sm leading-relaxed italic" style={{ color: '#999' }}>
+                "Setiap proyek adalah kesempatan untuk tumbuh dan berkembang."
               </p>
               <div className="mt-3 flex items-center gap-2">
                 <div className="w-5 h-px" style={{ background: 'rgba(177,158,239,0.35)' }} />
