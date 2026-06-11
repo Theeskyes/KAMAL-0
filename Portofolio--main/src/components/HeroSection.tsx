@@ -43,7 +43,7 @@ export default function HeroSection() {
 
         <h1 ref={headingRef} className="font-display font-bold leading-none tracking-tighter mb-4"
           style={{ fontSize: 'clamp(4rem, 12vw, 9rem)', perspective: '800px' }}>
-          {['Muhammad', 'Kamaluddin'].map((word, wi) => (
+          {['Muhammad', 'Kamal'].map((word, wi) => (
             <span key={wi} className="block overflow-hidden">
               {word.split('').map((char, ci) => (
                 <span key={ci} className="ch inline-block"
