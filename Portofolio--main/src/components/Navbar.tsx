@@ -106,7 +106,7 @@ export default function Navbar() {
           >
             {'</>'}
           </div>
-          <span className="gradient-text">Adit</span>
+          <span className="gradient-text">Kamal</span>
         </motion.a>
 
         {/* ── Desktop nav ── */}
