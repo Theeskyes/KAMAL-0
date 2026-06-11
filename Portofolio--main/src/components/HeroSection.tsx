@@ -56,7 +56,7 @@ export default function HeroSection() {
         </h1>
 
         <p className="font-mono text-sm tracking-widest uppercase mb-6" style={{ color: '#444' }}>
-          Student · Web Developer · 17 y.o.
+          Student · Web Developer · Osis.
         </p>
 
         <p ref={subRef} className="opacity-0 text-lg md:text-xl max-w-xl mx-auto mb-10 leading-relaxed" style={{ color: '#666' }}>
