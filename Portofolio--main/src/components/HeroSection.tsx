@@ -60,9 +60,9 @@ export default function HeroSection() {
         </p>
 
         <p ref={subRef} className="opacity-0 text-lg md:text-xl max-w-xl mx-auto mb-10 leading-relaxed" style={{ color: '#666' }}>
-          Pelajar 17 tahun yang membangun{' '}
-          <GradientText colors={['#B19EEF', '#5227FF', '#FF9FFC']} animationSpeed={4}>pengalaman web yang keren</GradientText>.
-          {' '}Belajar setiap hari, satu commit satu langkah maju.
+          Pelajar 17 tahun yang suka membangun {' '}
+          <GradientText colors={['#B19EEF', '#5227FF', '#FF9FFC']} animationSpeed={4}>pengalaman web yang profesional.</GradientText>.
+          {' '}Terbiasa berpikir analitis dan bekerja dalam tim.
         </p>
 
         <div ref={ctaRef} className="opacity-0 flex flex-wrap gap-4 justify-center">
