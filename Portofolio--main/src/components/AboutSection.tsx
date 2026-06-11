@@ -9,11 +9,11 @@ gsap.registerPlugin(ScrollTrigger);
 
 const INFO = [
   { label: 'Nama',       value: 'Muhammad kamaluddin Pulungan ', icon: '✨' },
-  { label: 'Umur',       value: '16 Tahun',    icon: '🎂' },
-  { label: 'Gender',     value: 'Male',        icon: '👤' },
+  { label: 'Umur',       value: '17 Tahun',    icon: '🎂' },
+  { label: 'Gender',     value: 'Pria',        icon: '👤' },
   { label: 'Pendidikan', value: 'Pelajar',     icon: '🎓' },
   { label: 'Status',     value: 'Pelajar',     icon: '📚' },
-  { label: 'Location',   value: 'Indonesia',   icon: '🌏' },
+  { label: 'Lokasi',   value: 'Indonesia',   icon: '🌏' },
 ];
 
 const USE_VIDEO = false;
@@ -97,7 +97,7 @@ export default function AboutSection() {
             <TiltCard
               src={MEDIA_SRC}
               isVideo={USE_VIDEO}
-              alt="Adit Kusuma"
+              alt="Muhammad Kamaluddin Pulungan" 
               style={{ width: '100%', height: '100%' }}
             >
               <div
@@ -121,7 +121,7 @@ export default function AboutSection() {
                     👤
                   </div>
                   <div>
-                    <p className="font-display font-bold text-white text-lg">Adit Kusuma</p>
+                    <p className="font-display font-bold text-white text-lg">Muhammad Kamaluddin Pulungan</p>
                     <p className="font-mono text-xs mt-1" style={{ color: '#B19EEF' }}>Web Developer</p>
                   </div>
                   <div className="flex gap-1.5">
@@ -150,12 +150,12 @@ export default function AboutSection() {
               <p className="text-lg leading-relaxed" style={{ color: '#888' }}>
                 Halo! Saya{' '}
                 <GradientText colors={['#B19EEF', '#5227FF', '#FF9FFC']} animationSpeed={5}>
-                  Adit Kusuma
+                  Muhammad Kamaluddin Pulungan
                 </GradientText>
-                , seorang pelajar berusia 16 tahun yang passionate di dunia web development dan teknologi.
+                , seorang pelajar berusia 17 tahun yang passionate di dunia web development dan teknologi.
               </p>
               <p className="text-base leading-relaxed" style={{ color: '#555' }}>
-                Meski masih muda, saya terus belajar dan mengembangkan skill di bidang JavaScript, TypeScript,
+                saya terus belajar dan mengembangkan skill di bidang JavaScript, TypeScript,
                 React, dan Python. Saya percaya tidak ada kata terlalu dini untuk mulai berkarya di dunia digital.
                 Setiap hari adalah kesempatan belajar hal baru!
               </p>
