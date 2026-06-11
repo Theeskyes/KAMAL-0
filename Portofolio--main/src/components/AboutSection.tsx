@@ -152,7 +152,7 @@ export default function AboutSection() {
                 <GradientText colors={['#B19EEF', '#5227FF', '#FF9FFC']} animationSpeed={5}>
                   Adit Kusuma
                 </GradientText>
-                , seorang pelajar berusia 15 tahun yang passionate di dunia web development dan teknologi.
+                , seorang pelajar berusia 16 tahun yang passionate di dunia web development dan teknologi.
               </p>
               <p className="text-base leading-relaxed" style={{ color: '#555' }}>
                 Meski masih muda, saya terus belajar dan mengembangkan skill di bidang JavaScript, TypeScript,
