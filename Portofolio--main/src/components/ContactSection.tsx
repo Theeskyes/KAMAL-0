@@ -85,7 +85,7 @@ export function Footer() {
             style={{ background: 'rgba(177,158,239,0.1)', color: '#B19EEF', border: '1px solid rgba(177,158,239,0.2)' }}>
             {'<>'}
           </div>
-          <span className="text-sm font-display font-semibold gradient-text">Adit Kusuma</span>
+          <span className="text-sm font-display font-semibold gradient-text">Muhammad Kamaluddin</span>
         </div>
         <p className="text-xs font-mono" style={{ color: '#333' }}>
           © {new Date().getFullYear()} Muhammad Kamalluddin · Built with React, TypeScript & GSAP · All rights reserved
