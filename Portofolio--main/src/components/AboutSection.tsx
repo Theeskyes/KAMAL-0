@@ -12,7 +12,7 @@ const INFO = [
   { label: 'Umur',       value: '17 Tahun',    icon: '🎂' },
   { label: 'Gender',     value: 'Pria',        icon: '👤' },
   { label: 'Pendidikan', value: 'Pelajar',     icon: '🎓' },
-  { label: 'Status',     value: 'Pelajar',     icon: '📚' },
+  { label: 'Status',     value: 'SMA/SMK Sederajat',     icon: '📚' },
   { label: 'Lokasi',   value: 'Indonesia',   icon: '🌏' },
 ];
 
