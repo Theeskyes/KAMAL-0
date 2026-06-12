@@ -17,7 +17,7 @@ const INFO = [
 ];
 
 const USE_VIDEO = false;
-const MEDIA_SRC = USE_VIDEO ? '/video.mp4' : '/Adit.jpg';
+const MEDIA_SRC = USE_VIDEO ? '/video.mp4' : '/kamal.jpg';
 
 export default function AboutSection() {
   const sectionRef = useRef<HTMLElement>(null);

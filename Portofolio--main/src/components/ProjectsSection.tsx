@@ -4,55 +4,30 @@ import GradientText from './GradientText';
 
 const PROJECTS = [
   {
-    title: 'Project 1',
-    desc: 'Deskripsi project 1.',
-    tags: ['Video', 'Editing'],
+    title: 'Peluang Dasar pada Undian no HP digit terakhir',
+    desc: 'Project matematika tentang peluang dasar menggunakan undian nomor HP digit terakhir.',
+    tags: ['Matematika', 'Video'],
     year: '2024',
     color: '#B19EEF',
-    ytId: 'YOUTUBE_ID_1', // ganti dengan ID video YouTube
+    ytId: 'Jk1kHtM_Xm8',
   },
   {
-    title: 'Project 2',
-    desc: 'Deskripsi project 2.',
-    tags: ['Video', 'Editing'],
+    title: 'Hak dan Kewajiban dalam Berteman',
+    desc: 'Project video tentang hak dan kewajiban dalam berteman di lingkungan sekolah.',
+    tags: ['PKN', 'Video'],
     year: '2024',
     color: '#5227FF',
-    ytId: 'YOUTUBE_ID_2',
+    ytId: 'LZAc1wTMZ6M',
   },
   {
-    title: 'Project 3',
-    desc: 'Deskripsi project 3.',
-    tags: ['Video'],
+    title: 'Tutorial Making Straight Cable',
+    desc: 'Tutorial membuat kabel straight (UTP) untuk jaringan komputer.',
+    tags: ['Networking', 'Tutorial', 'TKJ'],
     year: '2024',
     color: '#38bdf8',
-    ytId: 'YOUTUBE_ID_3',
-  },
-  {
-    title: 'Project 4',
-    desc: 'Deskripsi project 4.',
-    tags: ['Video'],
-    year: '2023',
-    color: '#FF9FFC',
-    ytId: 'YOUTUBE_ID_4',
-  },
-  {
-    title: 'Project 5',
-    desc: 'Deskripsi project 5.',
-    tags: ['Video'],
-    year: '2023',
-    color: '#4b8bbe',
-    ytId: 'YOUTUBE_ID_5',
-  },
-  {
-    title: 'Project 6',
-    desc: 'Deskripsi project 6.',
-    tags: ['Video'],
-    year: '2023',
-    color: '#88ce02',
-    ytId: 'YOUTUBE_ID_6',
+    ytId: 'qalZD4TLVb0',
   },
 ];
-
 export default function ProjectsSection() {
   const ref = useRef<HTMLElement>(null);
   const isInView = useInView(ref, { once: true, margin: '-100px' });
