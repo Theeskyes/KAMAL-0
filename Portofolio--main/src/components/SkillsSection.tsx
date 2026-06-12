@@ -80,7 +80,7 @@ export default function SkillsSection() {
             </div>
 
             <div className="grid grid-cols-3 gap-3">
-              {[{ n: '10+', label: 'Projects' }, { n: '1+', label: 'Tahun Coding' }, { n: '5+', label: 'Tech Stack' }].map((s) => (
+              {[{ n: '3+', label: 'Projects' }, { n: '1', label: 'Tahun Coding' }, { n: '5', label: 'Tech Stack' }].map((s) => (
                 <div key={s.label} className="glass-card rounded-2xl p-5 text-center">
                   <p className="font-display font-bold text-2xl mb-1 gradient-text-accent">{s.n}</p>
                   <p className="text-xs font-mono" style={{ color: '#444' }}>{s.label}</p>
