@@ -10,15 +10,16 @@
     "preview": "vite preview --port 3000"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
+    "@react-three/drei": "^9.117.3",
+    "@react-three/fiber": "^8.17.10",
     "gsap": "^3.12.5",
+    "lucide-react": "^0.462.0",
     "motion": "^11.11.17",
+    "postprocessing": "^6.36.4",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "three": "^0.169.0",
-    "postprocessing": "^6.36.4",
-    "lucide-react": "^0.462.0",
-    "@react-three/fiber": "^8.17.10",
-    "@react-three/drei": "^9.117.3",
     "vite": "^5.4.11"
   },
   "devDependencies": {
